@@ -1,0 +1,37 @@
+* {
+    margin: 20px;
+}
+h1 {
+    color: rgb(182, 16, 146);
+    padding-top: 20px;
+}
+small {
+    color:#800080
+}
+
+body {
+    font-family: 'heebo',sans-serif;
+    background-color: coral;
+}
+#img {
+
+    border:4px inset rgb(5, 230, 238);
+}
+h1 :hover{
+    color: crimson;
+}
+
+hr {
+    border-style: solid;
+}
+ .header {
+     text-align: center;
+ }
+ h3 {
+     text-decoration: underline;
+     color: darkviolet;
+ }
+
+ ul {
+     list-style-type: square;
+ }

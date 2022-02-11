@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating Application</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="picture"></div>
+    <div>
+        <h1 class="heading">Application to permission To Date my Daughter</h1>
+    </div> <br><br>
+    <fieldset>
+    
+        <legend aria-controls="200"> <b> Personal Details :</b></legend><br>
+        <div>
+            <form>
+        
+        <table>
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td>:</td>
+                <td><input type="text" class="tdi" placeholder="Enter yor name" required></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td>:</td>
+                <td><input type="text" class="tdi" placeholder="enter your address" required></td>
+            </tr>
+            <tr>
+                <td><label for="mail">E-mail</label></td>
+                <td>:</td>
+                <td><input type="email"class="tdi" name="mail" id="mail" placeholder="enter your mail" required></td>
+            </tr>
+            <tr>
+                <td><label for="number" form="number">Contact No</label></td>
+                <td>:</td>
+                <td><input type="number" class="tdi" name="number" id="number" placeholder="enter 10 digit no" required></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td>:</td>
+                <td>
+                <span><input type="radio" class="tdi" name="gender" id="male"></span>
+                <span><label for="male">male</label></span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                <span><input type="radio" class="tdi" name="gender" id="female"></span>
+                <span><label for="female">Female</label></span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><span><input type="radio" class="tdi" name="gender" id="others"></span>
+                <span><label for="others">Others</label></span></td>
+            </tr>
+            <tr>
+                <td><label for="date of outing">Date of Proposed Outing</label></td>
+                <td>:</td>
+                <td><input type="date" class="tdi" name="date of outing" id="date of outing"></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</fieldset>
+<fieldset>
+    <div>
+        <p><b>Check all that apply to you:</b></p>
+        <table>
+            <tr>
+                <td></td>
+                <td><label for="1">I have tattoos and/or piercings</label></td>
+                <td><input type="checkbox" name="tattos" id="1"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="2">I am more than 2 years older than my daughter </label></td>
+                <td><input type="checkbox" name="older" id="2"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="3">I own a panel van or Ferrari</label></td>
+                <td><input type="checkbox" name="ferrari" id="3"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="4">I work full-time </label></td>
+                <td><input type="checkbox" name="work" id="4"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="5">My parents are rich</label></td>
+                <td><input type="checkbox" name="rich" id="5"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="6">Is the date at a private location </label></td>
+                <td><input type="checkbox" name="location" id="6"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="7">Is the date at a public location </label></td>
+                <td><input type="checkbox" name="location" id="7"></td>
+            </tr>
+        </table>
+        
+    </div>
+</fieldset>
+<fieldset>
+    <div>
+        <tr>
+            <td><label for="education">Education level completed</label></td>
+            <td>:</td>
+            <td><select name="education" class="tdi" id="education">
+                <option value="SSC">SSC</option>
+                <option value="HSC">HSC</option>
+                <option value="Graduation">Graduation</option>
+                <option value="Post-Graduation">Post-Graduation</option>
+                <option value="Doctorate">Doctorate</option>
+            </select></td>
+        </tr>
+    </div>
+</fieldset>
+<fieldset>
+        <legend aria-controls="200"><b>Eassy Section :</b></legend>
+        <div>
+            <label for="essay"> Why do you want to date my daughter (50 words input)?</label><br>
+            <textarea name="essay" class="tdi" id="essay" cols="80" rows="10" placeholder="enter your text here" required></textarea><br>
+            <label for="contact details">Please provide 1 contact point for your reference:</label><br>
+            <textarea name="essay" class="tdi" id="contact details" cols="80" rows="10" placeholder="enter your text here"></textarea><br><br>
+            <table>
+                <tr>
+                    <td><label for="police certificate">Police clearance certificate </label></td>
+                    <td>:</td>
+                    <td><input type="file" class="tdi" name="certificate" id="police certificate"></td>
+                </tr>
+                <tr>
+                    <td><label for="medical certificate">Medical Certificate</label></td>
+                    <td>:</td>
+                    <td><input type="file" name="certificate" id="medical certificate"></td>
+                </tr>
+                <tr>
+                    <td><label for="bank statement">Bank Statement</label></td>
+                    <td>:</td>
+                    <td><input type="file" name="statement" id="bank statement"></td>
+                </tr>
+            </table>
+
+
+
+        </div>
+</fieldset>
+<div id="submit">
+    <input  id="button" type="submit" value="Submit Your Application">
+</div>
+    
+</body>
+</html>
