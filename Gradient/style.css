@@ -1,0 +1,36 @@
+* {
+    margin: 20px;
+}
+
+.grad {
+	background-image: linear-gradient(to bottom, red, blue);
+  width: 100vw;
+  height: 100vh;
+}
+
+.grad1 {
+	background-image: linear-gradient(to top,red, pink);
+  width: 100vw;
+  height: 100vh;
+}
+
+.grad2 {
+	background-image: linear-gradient(to left ,red, yellow);
+  
+    
+  width: 100vw;
+  height: 100vh;
+}
+
+.grad3 {
+	background-image: linear-gradient(to right,red, green);
+  
+  width: 100vw;
+  height: 100vh;
+}
+
+.radial {
+    background-image: radial-gradient(blue, red, pink);
+    width: 100vw;
+  height: 100vh;
+}
