@@ -1,0 +1,42 @@
+#previews{
+    overflow: auto;
+    white-space: nowrap;          
+}
+.tooltip{
+    white-space: normal;
+}
+.preview-div {
+    width: 120px;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.preview-div .image-div{
+    padding-bottom: 5px;
+}            
+.preview-div .fotina{
+    display:block;
+    margin:auto;
+    width: 85px;
+    height: 117px;
+}
+.preview-div:hover .fotina {
+    box-shadow:  0px 0px 5px;
+}
+.preview-div svg{
+    display:block;
+    margin:auto;
+    opacity: 0.4;
+    width: 50px;
+    height: 117px;
+}
+.preview-div:hover svg{
+    opacity: 0.9;            
+}
+.preview-div .info {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.75em;
+}
+/* .preview-div:hover .info{} */
