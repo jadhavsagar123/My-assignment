@@ -43,7 +43,7 @@ $('#input').bind('input', startTimerAction);
                 if(!q)
                     return;
  
-                console.log("Query to Google Books: \n"+JSON.stringify(query));
+                // console.log("Query to Google Books: \n"+JSON.stringify(query));
                                 
                 url += 'q='+q;
  
