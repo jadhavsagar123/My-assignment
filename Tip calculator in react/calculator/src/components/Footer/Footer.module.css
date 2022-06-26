@@ -1,0 +1,19 @@
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 70%;
+    margin: 3rem 12rem;
+ }
+ button{
+     color: white;
+     background-color:rgb(173, 68, 173);
+     padding: 5px;
+    text-align: center;
+ }
+ .footer{
+     background-color: rgb(221, 94, 94);
+     color: antiquewhite;
+ }
+ h3{
+     padding: 3px;
+ }
