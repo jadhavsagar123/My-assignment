@@ -27,7 +27,7 @@ const Card = ({food}) => {
        
          
             <div className="card container p-3 mt-4 shadow p-3 mb-5 bg-body rounded" style={{width:'18rem' ,height:'30rem' }}>
-            <img  src={food.image} className="card-img-top" alt="food" />
+            <img  src={food.image} height="350px" className="card-img-top" alt="food" />
             <div className="card-body">
                 <h5 className="card-title text-wrap" >{food.item}</h5>
                 <h3>₹{food.price}</h3>
